@@ -1,0 +1,8 @@
+---
+title: "Landscape PDF"
+subtitle: "This demonstrates a landscape PDF output"
+output: pdf_document
+classoption: landscape
+---
+
+This document is 8.5 inches tall and 11 inches wide.
