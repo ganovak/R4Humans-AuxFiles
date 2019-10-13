@@ -1,0 +1,24 @@
+---
+title: "Variable Orientation"
+subtitle: "This demonstrates a variable orientation PDF output"
+output: 
+  pdf_document:
+header-includes:
+- \usepackage{pdflscape}
+---
+
+This page is 11 inches tall and 8.5 inches wide.
+
+\newpage
+
+\begin{landscape}
+
+This page is 8.5 inches tall and 11 inches tall.
+
+\newpage
+
+This page is also in landscape mode.
+
+\end{landscape}
+
+But this one is back to portrait mode.
