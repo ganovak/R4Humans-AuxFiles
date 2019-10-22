@@ -1,10 +1,14 @@
 ---
 title: "Title"
-author: "Author"
-date: "9/2/2019"
+author: 
+- "Author 1"
+- "Author 2"
+date: "Date"
+subtitle: "Subtitle"
+description: "Description"
 output:
-  pdf_document: default
   html_document: default
+  pdf_document: default
 ---
 
 ```{r setup, include=FALSE}
