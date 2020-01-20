@@ -1,36 +1,19 @@
 ---
 title: "Title"
-author: 
-- "Author 1"
-- "Author 2"
-date: "Date"
-subtitle: "Subtitle"
-description: "Description"
-output:
-  html_document: default
-  pdf_document: default
+author: "Author"
+output: 
+  pdf_document:
+fontsize: 10pt
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+# Heading 1: A Section
 
-## R Markdown
+Lorem ipsum dolor sit amet, diam prompta numquam at sea, eius omnium ei vix. 
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+## Heading 2: A Subsection
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+Eos idque prompta eu, graeci perfecto est ut. 
 
-```{r cars}
-summary(cars)
-```
+### Heading 3: A Subsubsection (if it's good enough for LaTeX, it's good enough for me)
 
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+Et dolorum interpretaris sit, quo omnes quando at, alii facilis eos in.
