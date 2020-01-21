@@ -1,19 +1,11 @@
 ---
-title: "Title"
-author: "Author"
 output: 
   pdf_document:
-fontsize: 10pt
+header-includes:
+- \usepackage{amsmath}
 ---
-
-# Heading 1: A Section
-
-Lorem ipsum dolor sit amet, diam prompta numquam at sea, eius omnium ei vix. 
-
-## Heading 2: A Subsection
-
-Eos idque prompta eu, graeci perfecto est ut. 
-
-### Heading 3: A Subsubsection (if it's good enough for LaTeX, it's good enough for me)
-
-Et dolorum interpretaris sit, quo omnes quando at, alii facilis eos in.
+\begin{align*}
+0 &= x^2+4x+3 \\
+&= (x+3)(x+1) \\
+x &= -3 \text{ and } -1
+\end{align*}
